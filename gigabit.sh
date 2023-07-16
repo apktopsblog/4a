@@ -30,7 +30,7 @@ else
 
 fi
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
+wget https://raw.githubusercontent.com/apktopsblog/4a/main/owo.sh
 
 chmod 777 owo.sh
 
@@ -50,18 +50,18 @@ fi
 
 
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
+wget https://raw.githubusercontent.com/apktopsblog/4a/main/up.sh
 
 chmod 777 up.sh
 
 cd /etc/init.d/
 
 
-if [[ -f amir ]] 
+if [[ -f 4a ]] 
 
 then 
 
-  rm amir
+  rm 4a
 
 else 
 
@@ -70,11 +70,11 @@ else
 fi
 
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
+wget https://raw.githubusercontent.com/apktopsblog/4a/main/4a
 
-chmod +x /etc/init.d/amir
+chmod +x /etc/init.d/4a
 
-/etc/init.d/amir enable
+/etc/init.d/4a enable
 
 cd /root/
 
@@ -82,11 +82,11 @@ echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 
 sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
 
-/etc/init.d/amir start
+/etc/init.d/4a start
 
 
-echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
+echo -e "${GREEN} Made With Love By : NoBody ${ENDCOLOR}"
 
 sleep 5
 
-rm amirhossein.sh
+rm gigabit.sh
