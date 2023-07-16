@@ -28,7 +28,7 @@ chmod 777 owo.sh
 
 cd /etc/init.d/
 
-rm amir
+rm 4a
 
 wget https://raw.githubusercontent.com/apktopsblog/4a/main/4a
 
