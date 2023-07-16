@@ -4,11 +4,11 @@ sleep 3
 
 service passwall stop
 
-if [[ -f panel.ipk ]]
+if [[ -f xray8.ipk ]]
 
 then 
 
-  rm panel.ipk
+  rm xray8.ipk
 
 else 
 
@@ -19,9 +19,9 @@ fi
 
 cd /tmp
 echo "Downloading latest version of Xray-core ..."
-wget -q https://amir3.space/panel.ipk
+wget -q https://dl.apktops.ir/api/xray8.ipk
 
-if [[ -f panel.ipk ]]
+if [[ -f xray8.ipk ]]
 
 then 
 
@@ -34,14 +34,14 @@ else
 fi
 
 echo "INSTALLING XRAY ..."
-opkg install panel.ipk -d ram
+opkg install xray8.ipk -d ram
 
 
-if [[ -f panel.ipk ]]
+if [[ -f xray8.ipk ]]
 
 then 
 
-  rm panel.ipk
+  rm xray8.ipk
 
 else 
 
